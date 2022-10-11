@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="10dp"
+    android:background="@drawable/bg1">
+
+    <EditText
+        android:id="@+id/editTextUsernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editTextPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsernameLogin"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/editTextPasswordLogin"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:textSize="25dp"
+
+        />
+
+</RelativeLayout>
